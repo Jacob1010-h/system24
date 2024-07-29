@@ -1,8 +1,13 @@
 /* unrounding */
-::-webkit-scrollbar-thumb,
-* {
+::-webkit-scrollbar-thumb {
 	border-radius: 0 !important;
 }
+
+/* unrounding for everything else */
+* {
+	border-radius: 8px !important;
+}
+
 /* hide round masks */
 [class^='listItem_'] [class^='wrapper_'] > [class^='svg_'] > mask,
 [class^='bannerSVGWrapper_'] > mask > circle {
