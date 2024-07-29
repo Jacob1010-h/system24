@@ -1,0 +1,9 @@
+/* Max hight for quote */
+[class^=userPopoutInner_] [class^=blockquoteContainer_] {
+  max-height: 90px;
+}
+
+/* Max userPopout */
+[class*=userPopoutOverlayBackground] {
+  max-height: 60vh;
+}
